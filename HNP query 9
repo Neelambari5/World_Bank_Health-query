@@ -1,0 +1,5 @@
+--To extract data from both the tables usuing inner join for the country Bhutan during the year 2000 where the values lied between 10 and 20
+SELECT country_name, topic,ss.indicator_name, periodicity,value,source, year FROM `bigquery-public-data.world_bank_health_population.series_summary` ss
+inner join `bigquery-public-data.world_bank_health_population.health_nutrition_population` hnp
+on ss.indicator_name=hnp.indicator_name
+where year=2000 AND country_name="Bhutan" AND  value between 10 and 20
