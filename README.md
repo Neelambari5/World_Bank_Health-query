@@ -29,5 +29,10 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156808679-41973fd1-9c14-4da7-bc8f-617f8181ddc2.png)
 
+8. To use left join to extract data from two tables with common indicator name for the year 2000
+
+![image](https://user-images.githubusercontent.com/100946328/156811672-6ee2f17c-4c56-45d1-b303-f9e5bf312cac.png)
+
+
 
 
