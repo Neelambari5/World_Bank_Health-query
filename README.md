@@ -33,6 +33,11 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156811672-6ee2f17c-4c56-45d1-b303-f9e5bf312cac.png)
 
+9. To extract data from both the tables usuing inner join for the country Bhutan during the year 2000 where the values lied between 10 and 20
+
+![image](https://user-images.githubusercontent.com/100946328/156812919-c211b449-3962-41d8-accb-7c12599974f0.png)
+
+
 
 
 
