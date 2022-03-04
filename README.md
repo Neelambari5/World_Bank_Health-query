@@ -21,4 +21,8 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156803691-edae2e2c-db0a-45c2-8c87-9d70ebc7a5a4.png)
 
+6. To compare the values of prevalance of anemia among women of reproductive  age for the year 2010 in both Unites Kingdom and United States
+
+![image](https://user-images.githubusercontent.com/100946328/156804930-b6c58bbd-62db-462a-9e31-b1decb225896.png)
+
 
