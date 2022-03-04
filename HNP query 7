@@ -1,0 +1,5 @@
+--to meausre the gross enrollment of students into secondary education in India and find values closest to 100
+SELECT country_name,indicator_name, indicator_code, max(value), year  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where country_name="India" AND indicator_name="School enrollment, secondary (% gross)" AND value<100 
+group by  country_name, indicator_name, indicator_code, value, year 
+order by value desc
