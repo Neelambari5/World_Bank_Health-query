@@ -13,4 +13,7 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156800033-bc9fe8b5-0429-40a4-bf44-f0ec485d0803.png)
 
+4. To identify the countries and their respective values (that fall between 80 and 90) for the parameter of people in rural areas using basic drinking water facilities for the year 2010
+
+![image](https://user-images.githubusercontent.com/100946328/156802310-ab77f714-056c-4813-8d37-5ab0a00df191.png)
 
