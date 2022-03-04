@@ -1,0 +1,6 @@
+--to find the average value of nutrition in all countries for the year 2002, by extracting data from two relatable tables
+SELECT country_name, topic,ss.indicator_name, avg(value), year FROM `bigquery-public-data.world_bank_health_population.series_summary` ss
+right join `bigquery-public-data.world_bank_health_population.health_nutrition_population` hnp
+on ss.indicator_name=hnp.indicator_name
+where year=2002 AND topic="Nutrition"
+group by country_name, topic, indicator_name, value, year 
