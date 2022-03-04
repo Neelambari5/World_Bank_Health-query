@@ -1,0 +1,6 @@
+--To find out the least values (values ranging from 0 to 1) that measure the number of physicians per 100 people in the country of Peru
+SELECT country_name,indicator_name,value, year  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where indicator_name='Physicians (per 1,000 people)' AND value BETWEEN 0 AND 1 and country_name= "Peru"
+group by country_name, indicator_name, value, year
+order by year asc
+limit 5
