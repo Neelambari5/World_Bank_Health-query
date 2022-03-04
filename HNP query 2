@@ -1,0 +1,4 @@
+--To extract data from Health Nutrition Population table for the region of Europe and Asia from years 2000-2010 under the specific indicator of " mortality rate among adults females"
+SELECT distinct year, country_name, indicator_name, value  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where indicator_name="Mortality rate, adult, female (per 1,000 female adults)" AND country_name="Europe & Central Asia" AND year between 2000 and 2010
+order by year asc 
