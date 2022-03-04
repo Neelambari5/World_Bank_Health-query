@@ -1,0 +1,5 @@
+--To find out the names of countries' names starting with letter "U" where the value of hospital beds per 1000 people is more than 5
+SELECT distinct country_name,indicator_name, value, year FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where indicator_name LIKE "Hospital beds (per 1,000 people)" AND value>=5 AND country_name LIKE "U%"
+ORDER BY year asc
+limit 10
