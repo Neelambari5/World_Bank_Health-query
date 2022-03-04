@@ -9,4 +9,8 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156794939-9c9f4c20-f71f-4454-b640-7b0c5c63584e.png)
 
+3. To find out the names of countries' names starting with letter "U" where the value of hospital beds per 1000 people is more than 5
+
+![image](https://user-images.githubusercontent.com/100946328/156800033-bc9fe8b5-0429-40a4-bf44-f0ec485d0803.png)
+
 
