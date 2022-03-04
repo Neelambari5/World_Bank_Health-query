@@ -1,0 +1,3 @@
+--To compare the values of prevalance of anemia among women of reproductive  age for the year 2010 in both Unites Kingdom and United States
+SELECT *  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where (country_name="United States" OR country_name="United Kingdom") AND indicator_name="Prevalence of anemia among women of reproductive age (% of women ages 15-49)" AND year=2010
