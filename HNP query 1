@@ -1,0 +1,5 @@
+--Extracting the maximun two values from table of Health Nutrition Population where the indicator name starts with the word "Mortality" for country "Canada"
+SELECT country_name, indicator_name,max(value), year  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where indicator_name LIKE "Mortality%" AND country_name="Canada"
+group by country_name, indicator_name, year
+limit 2
