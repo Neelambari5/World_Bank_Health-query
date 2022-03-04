@@ -37,6 +37,10 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156812919-c211b449-3962-41d8-accb-7c12599974f0.png)
 
+10. To find the average value of nutrition in all countries for the year 2002, by extracting data from two relatable tables
+
+![image](https://user-images.githubusercontent.com/100946328/156815249-a0f2faf8-af64-498c-90a1-26080316739b.png)
+
 
 
 
