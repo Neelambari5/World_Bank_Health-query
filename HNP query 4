@@ -1,0 +1,5 @@
+--to identify the countries and their respective values (that fall between 80 and 90) for the parameter of people in rural areas using basic drinking water facilities for the year 2010
+SELECT *  FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+where indicator_name="People using at least basic drinking water services, rural (% of rural population)" AND year=2010 AND value between 80 and 90
+order by value desc 
+limit 12
