@@ -1,0 +1,6 @@
+-- to use left join to extract data from two tables with common indicator name for the year 2000
+SELECT topic,ss.indicator_name, periodicity, source, country_name, value, year FROM `bigquery-public-data.world_bank_health_population.series_summary` ss
+left join `bigquery-public-data.world_bank_health_population.health_nutrition_population` hnp
+on ss.indicator_name=hnp.indicator_name
+where year=2000
+limit 4
