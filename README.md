@@ -17,3 +17,8 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156802310-ab77f714-056c-4813-8d37-5ab0a00df191.png)
 
+5. To find out the least values (values ranging from 0 to 1) that measure the number of physicians per 100 people in the country of Peru
+
+![image](https://user-images.githubusercontent.com/100946328/156803691-edae2e2c-db0a-45c2-8c87-9d70ebc7a5a4.png)
+
+
