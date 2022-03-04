@@ -25,4 +25,9 @@ Specific data has been extracted through queries from World-Bank-Health-Populati
 
 ![image](https://user-images.githubusercontent.com/100946328/156804930-b6c58bbd-62db-462a-9e31-b1decb225896.png)
 
+7. To meausre the gross enrollment of students into secondary education in India and find values closest to 100
+
+![image](https://user-images.githubusercontent.com/100946328/156808679-41973fd1-9c14-4da7-bc8f-617f8181ddc2.png)
+
+
 
